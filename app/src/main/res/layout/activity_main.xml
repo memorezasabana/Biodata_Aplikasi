@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"/>
+        <EditText
+            android:id="@+id/edt_tempatlahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tempat Lahir"/>
+        <Button
+            android:id="@+id/btn_tanggallahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir"/>
+        <EditText
+            android:id="@+id/edt_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"/>
+        <EditText
+            android:id="@+id/edt_nohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No HP"/>
+        <EditText
+            android:id="@+id/edt_hobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hobi"/>
+        <EditText
+            android:id="@+id/edt_keinginan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keinginan"/>
+        <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Proses"/>
+        <TextView
+            android:id="@+id/txt_kalimatprofil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil Diri"/>
+
+    </LinearLayout>
+</RelativeLayout>
